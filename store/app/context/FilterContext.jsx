@@ -6,7 +6,8 @@ import { createContext, useContext, useState } from "react";
 const FilterContext = createContext();
 
 export const FilterProvider = ({ children }) => {
-  const [filterType, setFilterType] = useState("");
+  // تغيير القيمة الابتدائية من "" إلى "All"
+  const [filterType, setFilterType] = useState("All");
 
   return (
     <FilterContext.Provider value={{ filterType, setFilterType }}>

@@ -275,7 +275,7 @@ const Dashboard = () => {
   };
 
   return (
-    <div className="bg-[#E4E0E0] min-h-screen p-6">
+    <div className="bg-[#E4E0E0] text-black min-h-screen p-6">
       <HeaderDashboard/>
       
       {/* Cards */}

@@ -141,7 +141,7 @@ const handleAddOrUpdate = async (e) => {
     );
 
   return (
-    <div className="p-4">
+    <div className="p-4 bg-white text-black">
       <HeaderDashboard/>
       <div className="flex flex-wrap items-center gap-4 mb-4">
         <button
